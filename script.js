@@ -15,15 +15,16 @@ let daisyPosition = 1;
 let rockyPosition = 1;
 
 // Query selectors for all buttons and penguins go here
-const tuxButton = document.getElementById("tux-button");
-const daisyButton = document.getElementById("daisy-button");
-const rockyButton = document.getElementById("rocky-button");
+const tuxButton = document.querySelector("#tux-button");
+const daisyButton = document.querySelector("#daisy-button");
+const rockyButton = document.querySelector("#rocky-button");
 
-const tuxPenguin = document.getElementById("tux-penguin");
-const daisyPenguin = document.getElementById("daisy-penguin");
-const rockyPenguin = document.getElementById("rocky-penguin");
+const tuxPenguin = document.querySelector("#tux-penguin");
+const daisyPenguin = document.querySelector("#daisy-penguin");
+const rockyPenguin = document.querySelector("#rocky-penguin");
 
-const winnerDiv = document.getElementById("winner");
+const winnerDiv = document.querySelector("#winner");
+
 
 // Write the function that moves Tux forward
 // Increase the tux position
